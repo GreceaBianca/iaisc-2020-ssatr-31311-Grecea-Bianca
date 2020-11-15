@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int steps = 15;
+        int steps = 30;
         JsonLoader jsonLoader = new JsonLoader();
 
         if(jsonLoader.LoadJson("src/files/InputFile.json")){
